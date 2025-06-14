@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Brhan Tsegaye | Data Scientist Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #333;
+      transition: background 0.3s, color 0.3s;
+    }
+    header {
+      background-color: #003366;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      color: #003366;
+    }
+    .project {
+      background: white;
+      border-radius: 8px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    a {
+      color: #007acc;
+    }
+    .dark-mode {
+      background: #111;
+      color: #ddd;
+    }
+    .toggle-button {
+      margin: 1rem;
+      text-align: center;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Brhan Zelalem Tsegaye</h1>
+    <p>Data Scientist | Machine Learning | AWS & Geospatial Analytics</p>
+  </header>
+
+  <div class="toggle-button">
+    <button onclick="toggleTheme()">Toggle Light/Dark Mode</button>
+  </div>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I'm a data scientist passionate about solving real-world problems using machine learning, cloud computing, and geospatial data. I work across industries and domains—from air quality prediction to business process automation to flight delay analysis.
+    </p>
+
+    <h2>Projects</h2>
+
+    <div class="project">
+      <h3><a href="https://github.com/Brhanze/Kansas-city-air-quality-prediction">Kansas City AQI Prediction</a></h3>
+      <p>LSTM-based time series model for forecasting air quality using AWS SageMaker and Python.</p>
+      <iframe src="https://public.tableau.com/views/SampleAirQualityDashboard/Dashboard1"></iframe>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/Brhanze/Crimes-Analysis-in-the-City-of-San-Francisco">SF Crime Analysis</a></h3>
+      <p>Geospatial and temporal crime pattern analysis using Folium and public datasets.</p>
+      <iframe src="https://public.tableau.com/views/SampleCrimeMap/Dashboard1"></iframe>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/Brhanze/airline-delay-analysis">Flight Delay Analysis</a></h3>
+      <p>Analysis of airline delays to identify causes and trends using Python and visual analytics.</p>
+    </div>
+
+    <div class="project">
+      <h3><a href="https://github.com/Brhanze/Simple-Linear-Regression-for-predicting-CO2EMISSIONS">CO2 Emissions Estimator</a></h3>
+      <p>Simple linear regression model to estimate vehicle emissions from fuel data.</p>
+    </div>
+
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:brhantsegaye86@gmail.com">brhantsegaye86@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/brhanzelalem-tsegaye" target="_blank">brhanzelalem-tsegaye</a></p>
+    <p>GitHub: <a href="https://github.com/Brhanze" target="_blank">@Brhanze</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Brhan Tsegaye | Built with HTML & 💙</p>
+  </footer>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+</body>
+</html>
